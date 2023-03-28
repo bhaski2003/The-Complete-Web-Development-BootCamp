@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1 style="color:cyan">
+        DOM intro
+    </h1>
+</head>
+<body style="color:bisque; background-color: black;">
+    
+
+    <p>
+        the DOM is Doc Obj MOdel Created by Brwser wen we relod the pge
+        <br> its an hierachial representation of the elements in code 
+        parent then child ....sub child....
+    </p>
+    <p>
+        we can basically modify our inn Console itself via help of DOM been created by the BRweser
+        can modify there itslf everythng including styling we'll select the ele at 1t point by document.firstElementChild or stmng li tht and store it like ele and the ele.innerHTML = "bye"
+    </p>
+    <p>
+        can also use qureyselec for this , also objs inside DOM can hve props , methods
+        <br> PROPPS : ar the properties tht it can have
+        <br> METHODS: are the things it can do
+    </p>
+    <strong>
+        the main diff btw A Func & Methods is tht 
+        Methods are like shd be associated wiith a Obj
+        Methods can be as click() , appendChild() , setAttribue , getAttr
+<br>
+<li>
+        selecting them as document.getElemntById(" # ") </li>
+       <li> document.getElemntByClassName(" .class ") </li>
+      <li>  document.querySelector(" # a")  </li>
+
+      <br> if multiple selectors with the same id/cls then only 1st is retrned
+    if need all querySelectorAll <hr>
+
+    <li>
+        document.querySelector("h1").style.padding = "30px"
+    </li>
+    <li>
+        document.querySelector("h1").style.fontsize = "10rem"
+    </li>
+    </strong>
+    <p>
+        asssume in CSS .huge is already styled
+        then to bind it to ele in Console via DOM : document.querySelector("h1").classList.add("huge")
+    </p>
+<p>
+    Diff Btw InnerHTML & TextContent is tht InnerHTMl gives us strainght way whole content inside of HTML tag , if looped tags then prints tht tooo 
+    <br> but TextContent gives us actually needed contents
+    and in innerHTML we can also add some html elems as = "< em>hii</ em>"
+
+</p>
+<p>
+    setting Attr , but wht is Attr? = is class,href,src,id,type .......
+    <br>
+    document.querySelector("a").setAttribute("href" , "www.google.com")
+
+</p>
+</body>
+</html>

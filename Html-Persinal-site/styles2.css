@@ -7,10 +7,6 @@ body{
     font-family: "Sofia", sans-serif;
 }
 
-.skills{
-  background-color: rgb(191, 149, 231);
-}
-
 .font{
     font-family: 'Sacramento',cursive;
 }
@@ -103,9 +99,6 @@ nav li {
 }
 
 /* glassbox */
-.contact-me{
-  background-color:rgb(228, 233, 179);
-}
 
 .container {
     position: relative;

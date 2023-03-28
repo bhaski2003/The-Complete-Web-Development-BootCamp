@@ -1,0 +1,47 @@
+
+body{
+    margin:0;
+    background-color: aqua;
+    align-items:center   /*for this method to work then width shunt be setted if setted then shud use margin*/
+}
+
+
+.k{
+   
+    height: 200px;
+    width:200px;
+    margin:0px;
+   
+}
+
+
+.h{
+   
+    height: 200px;
+    margin: 0px;
+    width:200px; 
+    margin-left:580px;
+    position: absolute;
+    font-family: 'consolas';
+}
+
+
+.j{
+  
+    height: 200px;
+    width:200px; 
+    margin-left:420px;
+    
+}
+
+.c{
+    position: absolute;
+    left: 1000px;
+    top:60px;
+}
+    
+.b{
+    position: absolute;
+    top:200px;
+    left: 400px;
+}

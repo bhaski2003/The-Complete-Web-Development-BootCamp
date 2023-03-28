@@ -1,0 +1,84 @@
+readme added by us in git is Markdown typo indication ; while HTML is MArkup
+
+
+id's have more prior over classes whileinn styling
+
+
+p,h,div are like blocking ele's they'll block render of other elems
+
+while span is the inline element.....then y use block elems cz in inline elms we cnt chnge width of text
+
+asssume if we arrange them as position:inline we cant change thier widths but using position:inline-block we can chnage its hieght and width and style according
+
+<img> is both inline and block
+
+a child sits on top of parent
+
+
+POSITIOING: 
+
+by def its static i,e. wrt code written ex: h1,p,img rendered as per code's order: h1,p,img
+
+relative: Moving wrt its Static 
+
+assume if we moved a div to left lil then its original position remains unoccupied while in absoulte it can be occupied by other elems
+
+cz in ABSOLUTE we'll position itt in wrt to PARENT
+
+
+----------------------------------------------------------------------------------------------
+
+Js:
+
+values given by Math.Random() will never reach >1 will lwys be bte 0-0.999999999
+and ofc it changes every time you refresh
+--can also modify its vals as per our req : So called PsuedoRandom
+
+var num = Math.random();
+num = num*6;
+num = Math.floor(num);
+// if needed 6 inculsve then = num = Math.floor(num) +1
+
+== now this givs us vals within 1-5 and exclusive of 6
+
+Math.floor(num) will scales/rounds down the val to nearest wholenum
+
+Control Flow is nothing but - ifelse stmnts
+
+even though both == and === both checks for equality but wherin in === it'll also tryna match the data-types
+
+to get len of arr arrayname.length
+
+arraynme.includes('bhask') == gives us bool to indicate tht if its present or not 
+if present then 'true' else 'false'
+
+__________________________________
+
+FIZZ-BUZZ prblm:
+
+print FIZZ if odd and BUZZ fr even and if both like 6 then FIZZ-BUZZ
+
+arrynme.push(value) will appends the 'val' to end of the arr alwsys
+& not random or start
+
+simple maa-
+
+if( (count)%3 === 0 && count % 5 === 0)
+{
+	print('FIZZBUZZ')
+} 
+else if(count % 3 === 0)
+{
+	print("BUZZ")
+}
+else if(count % 5 === 0)
+{
+	print("BUZZ")
+}
+else{
+	print(count)
+}
+
+
+_____________________________________________________________________
+
