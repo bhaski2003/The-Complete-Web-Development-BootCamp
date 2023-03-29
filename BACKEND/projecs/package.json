@@ -1,0 +1,14 @@
+{
+  "name": "projecs",
+  "version": "1.0.0",
+  "description": "cclc",
+  "main": "calc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bhaski",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2"
+  }
+}
