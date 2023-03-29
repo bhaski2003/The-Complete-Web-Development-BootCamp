@@ -1,0 +1,41 @@
+API's are like G-Maps in Zomato , Swiggy , or weather API's in other apps 
+
+and ChatGPT-3,4 Apis ofc 
+
+APIs are the Applc pgmg interf = is a set of commands , funcs , protocols & objcs
+tht pgmrs can use to create SW or interact with an exterenal sys
+
+even jQuery is a API
+
+end points are the urls whc ll give qoutes or anything its deisgned fro 
+but this ll be chngign fr each time 
+i used TOP_G's api : https://www.tateapi.com/api/quote?amount=5
+
+jokes API : https://v2.jokeapi.dev/joke/Programming,Dark,Pun?blacklistFlags=nsfw,sexist,explicit&format=txt&contains=%20&amount=4
+
+PATHS in API ? why do yu need ? 
+=> apis can have path/branch if like user needs to customze jokes only regrd pgmg by typng '/pgmg' in URL
+
+why parameters in api?
+=> cz wen user needs to search results for even more specifc keywords like java under pgmg as the path
+then query takes part i.e, parameters
+
+
+can also use postman to post our reqsts and get a arranged data
+
+weather API key =442cc3de88e207171737790d4581a585
+q = london , appid = 442cc3de88e207171737790d4581a585
+units = metric 
+-------------------------------------------------------------------------------------------------------------------------------
+
+JSON : js obj notn - is humannn readable 
+
+text/plain was typically used for JSON, 
+use JSON Viewer Pro for better visualization
+
+___________________________________________________________________________________________________________________
+
+apis play huge role wen we're needed to fetch the data fro our severe from the other srvr like Gmaps or smtg
+api will be our middleware to do so and provide safe and legit srvice for our clients
+
+chatgpt API for me : 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
